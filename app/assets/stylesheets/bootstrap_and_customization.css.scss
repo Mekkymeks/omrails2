@@ -1,7 +1,19 @@
-$body-bg:       #ecf0f1;
-$navbar-inverse-bg:       #2c3e50;
-$navbar-inverse-link-color:       white;
-$brand-primary:        #f39c12;
-$jumbotron-bg:         #ecf0f1;
+@import url(http://fonts.googleapis.com/css?family=Snippet|Bubbler+One|Montserrat+Subrayada|Julius+Sans+One);
+
+$body-bg:                 #ecf0f1;
+$font-family-sans-serif:  'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:           45px;
+$navbar-default-bg:       white;
+$navbar-default-brand-color:       #c0392b;
+$brand-primary:           #c0392b;
+$jumbotron-bg:            #ecf0f1;
 
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
